@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+  }
+  
+.input {
+    border: none;
+    border-radius: 0;
+    padding: 5%;
+    width: 80%;
+    font-size: 1.2em;
+  }
+  
+input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+  
+.sendButton {
+    color: #fff !important;
+    text-decoration: none;
+    background: rgb(255,123,123);
+    background: linear-gradient(38deg, rgba(255,123,123,1) 40%, rgba(255,105,105,1) 65%);
+    padding: 20px;
+    display: flex;
+    border: none;
+    width: 12vh;
+    height: 14%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    box-shadow: rgba(88, 163, 73, 0.35) 0px 5px 15px;  }
